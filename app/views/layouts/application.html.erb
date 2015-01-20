@@ -7,6 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="banner">
+Movies
+</div>
+<div id="nav">
+<%= link_to 'Home', root_path %>
+<%= link_to 'Movies', movies_path %>
+<%= link_to 'Genres', genres_path %>
+</div>
 
 <%= yield %>
 
